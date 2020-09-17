@@ -66,7 +66,7 @@
 
 body {
     background: #B0E0E6;
-    overflow: hidden;
+
 
 }
 
@@ -93,7 +93,7 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    
+
 }
 
 
