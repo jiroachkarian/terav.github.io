@@ -305,11 +305,6 @@ body {
     -moz-animation-iteration-count: infinite;
     -moz-animation-direction: alternate;
 
-    animation-name: animacao3;
-    animation-duration: 0.15s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
 
-</style>
+
+    </style>
