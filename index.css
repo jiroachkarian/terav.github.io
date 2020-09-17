@@ -22,47 +22,7 @@
 
 }
 
-@-webkit-keyframes animacao1 {
-    0% {
-        background: #D62623;
-    }
 
-    50% {
-        background: #EE3430;
-    }
-
-    100% {
-        background: #FB3733;
-    }
-}
-
-@-moz-keyframes animacao1 {
-    0% {
-        background: #D62623;
-    }
-
-    50% {
-        background: #EE3430;
-    }
-
-    100% {
-        background: #FB3733;
-    }
-}
-
-@keyframes animacao1 {
-    0% {
-        background: #D62623;
-    }
-
-    50% {
-        background: #EE3430;
-    }
-
-    100% {
-        background: #FB3733;
-    }
-}
 
 body {
     background: #B0E0E6;
