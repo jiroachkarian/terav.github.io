@@ -19,13 +19,12 @@ body {
     background: #B0E0E6;
 }
 
+/*keyboard buttons*/
 .position {
     display: flex;
     justify-content: center;
 
 }
-
-
 
 .left {
 
@@ -35,7 +34,6 @@ body {
     padding-left: 1em;
 
 }
-
 
 .key {
 
