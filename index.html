@@ -5,21 +5,71 @@
     <!--snake board-->
     <title>Snake Game</title>
     <link rel="stylesheet" href="index.css">
-    <!--game over-->
-    <link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
-
+    <script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script>y
 </head>
 
 <body>
 
-
     <div id="score">0</div>
     <div class="position">
         <canvas id="snakeboard" width="400" height="400"></canvas>
-
     </div>
 
+    <div class="container">
+        <div class="left">
+            <div class="row">
+                <div class="in">UP</div>
 
+            </div>
+
+            <div class="row">
+
+                <div class="in">SUCK</div>
+
+                <div class="key">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-short" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
+                    </svg>
+                </div>
+
+
+                <div class="in">PUSH</div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="key">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                </div>
+
+                <div class="key">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down-short" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
+                    </svg>
+                </div>
+
+                <div class="key">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="in">DOWN</div>
 </body>
 
 <script>
@@ -209,5 +259,6 @@
         }
     }
 </script>
+
 
 </html>
